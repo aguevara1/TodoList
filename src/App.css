@@ -1,10 +1,50 @@
 .App {
+  margin-top: 15px;
   text-align: center;
+  display:flex;
+  justify-content:center;
+   flex-direction:column;
+
+}
+
+.listItems{
+  margin-top: 5.0rem;
+  margin: 10px;
+ display:flex;
+ justify-content:center;
+ flex-direction:row;
+}
+
+
+.done {
+     color: #999;
+   text-decoration: line-through;
+   }
+   .btn-danger {
+     margin-left:1.0rem;
+     color:red;
+
+   }
+
+.row{
+ display:flex;
+ justify-content:center;
+flex-direction:row;
+}
+
+.form-check-input {
+      margin-right: 1rem;
+    }
+
+.bigButton{
+  color:blue;
+
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  height: 75px;
+  margin-bottom: 15px;
 }
 
 .App-header {
