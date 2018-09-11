@@ -4,7 +4,7 @@
   display:flex;
   justify-content:center;
    flex-direction:column;
-
+   font-family: 'typeface-roboto';
 }
 
 .listItems{
@@ -40,6 +40,15 @@ flex-direction:row;
   color:blue;
 
 }
+
+.clipboard {
+
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+
+
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
