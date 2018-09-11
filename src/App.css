@@ -15,10 +15,15 @@
  flex-direction:row;
 }
 
+input:checked {
+    height: 50px;
+    width: 50px;
+}
 
-.done {
+ .done{
      color: #999;
    text-decoration: line-through;
+
    }
    .btn-danger {
      margin-left:1.0rem;
